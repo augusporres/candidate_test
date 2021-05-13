@@ -1,3 +1,7 @@
+# el script va a generar un archivo my_expected.v
+# en donde se tiene la sintaxis correcta
+
+
 import re
 
 with open('testcase.v', 'r') as f, open('my_expected.v', 'w') as d:
